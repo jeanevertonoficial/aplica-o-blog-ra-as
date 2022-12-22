@@ -13,3 +13,43 @@
 #buscaCachorro:focus {
     background-color: antiquewhite !important;
 }
+
+#artigo-card {
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 300px;
+    width: 300px;
+    background-color: #795548;
+    box-shadow: 7px 13px 0px 0px #f3bf4e;
+    height: 350px;
+    border-radius: 15px 15px 155px 0;
+    -webkit-border-radius: 15px 15px 155px 0;
+    -moz-border-radius: 15px 15px 155px 0;
+    -ms-border-radius: 15px 15px 155px 0;
+    -o-border-radius: 15px 15px 155px 0;
+}
+
+.img-card {
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.label-card {
+    width: 100%;
+    height: 115px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#section-base-lista {
+    display: flex;
+    flex-wrap: wrap;
+}
