@@ -6,22 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cachorros - Lista</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/variaveis-root.css">
-    <link rel="stylesheet" href="../public/css/styleBuscaCachorro.css">
-    <script src="../public/script/script.js"></script>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="../../public/css/variaveis-root.css">
+    <link rel="stylesheet" href="../../public/css/styleBuscaCachorro.css">
+    <script src="../../public/script/script.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <header>
     <section>
-        <img src="../public/imagens/cachorro.jpg" alt="logo">
+        <img src="../../public/imagens/cachorro.jpg" alt="logo">
         <div>
             <input id="buscaCachorro" type="text" placeholder="buscar por raça aqui..." title="input de busca dinâmica" onchange="buscaCachorro(this.value)">
         </div>
         <nav>
             <ul>
-                <a href="../public/index.html" title="ir para o inicio">
+                <a href="../../public/index.html" title="ir para o inicio">
                     <li>home</li>
                 </a>
             </ul>
